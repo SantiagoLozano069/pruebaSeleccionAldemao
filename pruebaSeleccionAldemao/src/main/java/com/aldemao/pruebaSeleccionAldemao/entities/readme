@@ -1,0 +1,11 @@
+En este paquete se ubican las entidades, en este caso, la entidad que respresenta la tabla "arrays"
+
+Sentencia para la creación de la tabla en la base tempral H2
+
+1. Crear tabla
+CREATE TABLE ARRAYS (
+     id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+     input_array varchar(20) NOT NULL
+);
+
+
